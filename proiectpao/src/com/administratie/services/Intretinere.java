@@ -16,7 +16,7 @@ public class Intretinere extends Locatari {
     private static final ArrayList<Locatari> listaLocatari = new ArrayList<Locatari>();
     private Object Locatari;
 
-    private Intretinere(){
+    public Intretinere(){
 //        listaLocatari[0] = new Locatari(1, "Nume", 1234567890, 1234, 123, 1111);
 //        listaLocatari[1] = new Locatari(2, "Nume", 1234567890, 1234, 123, 1112);
 //        listaLocatari[2] = new Locatari(3, "Nume", 1234567890, 1234, 123, 1113);
@@ -55,9 +55,10 @@ public class Intretinere extends Locatari {
 
     }
 
-    public void adaugaLocatar(int numarapt, String nume, String telefon, int consum1, int consum2, int total){
+    public static Locatari adaugaLocatar(int numarapt, String nume, String telefon, int consum1, int consum2, int total){
         Locatari locatar = new Locatari(numarapt,nume,telefon,consum1,consum2,total);
         listaLocatari.add(locatar);
+        return locatar;
     }
     
     public Locatari getOne(int numarapt){

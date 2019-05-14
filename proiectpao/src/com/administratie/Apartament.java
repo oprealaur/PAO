@@ -5,9 +5,9 @@ public class Apartament {
 //    private float cota;
 //    private int numarpers;
 
-    public Apartament(int numar){
-        this.numar = numar;
-    }
+//    public Apartament(int numar){
+//        this.numar = numar;
+//    }
 
     public Apartament(){
 

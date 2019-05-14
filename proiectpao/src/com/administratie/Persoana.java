@@ -20,9 +20,6 @@ public class Persoana extends Apartament{
         this.numarapt = numarapt;
     }
 
-    public int getNumarapt() {
-        return numarapt;
-    }
 
     public void setNume(String nume) {
         this.nume = nume;

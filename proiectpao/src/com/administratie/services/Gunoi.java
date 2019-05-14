@@ -8,6 +8,12 @@ public class Gunoi {
     float cantitateGunoi;
     Date dataGunoi = new Date();
 
+    public Gunoi(String tipgunoi, float cantitategunoi, Date date) {
+        this.tipGunoi = tipgunoi;
+        this.cantitateGunoi = cantitategunoi;
+        this.dataGunoi = date;
+    }
+
     public Date getDataGunoi() {
         return dataGunoi;
     }

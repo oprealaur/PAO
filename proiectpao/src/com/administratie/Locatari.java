@@ -1,6 +1,7 @@
 package com.administratie;
 
 public class Locatari extends Persoana{
+    private int numarapt;
     private float suma;
     private float consum_apa_calda;
     private float consum_apa_rece;
@@ -9,7 +10,7 @@ public class Locatari extends Persoana{
     private Persoana pers = new Persoana();
 
     public Locatari(int numarapt, String nume, String telefon, int consum1, int consum2, int total) {
-        apt.setNumar(numarapt);
+        this.numarapt = numarapt;
         pers.setNume(nume);
         pers.setTelefon(telefon);
         this.consum_apa_calda = consum1;
@@ -19,6 +20,16 @@ public class Locatari extends Persoana{
 
     public Locatari() {
         super();
+    }
+
+    @Override
+    public void setNumarapt(int numarapt) {
+        this.numarapt = numarapt;
+    }
+
+
+    public int getNumarapt() {
+        return numarapt;
     }
 
     public void setConsum_apa_calda(float consum_apa_calda) {
