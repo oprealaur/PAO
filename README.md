@@ -1,0 +1,3 @@
+# PAO
+
+Proiectul este incomplet.
