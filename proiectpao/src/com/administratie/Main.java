@@ -64,6 +64,8 @@ public class Main {
                 float cantitategunoi = myInput.nextFloat();
                 Gunoi gunoi = new Gunoi(tipgunoi,cantitategunoi,date);
                 FWriter.getInstance().garbageEntry(gunoi,outGunoi);
+
+                AuditService.getInstance().writeMessage("S-a luat gunoiul ", date);
             }
 
             else if(cerere == 4){
@@ -73,6 +75,8 @@ public class Main {
                 String observatiiCuratenie = myInput.nextLine();
                 Curatenie curatenie = new Curatenie(persoanaCuratenie, observatiiCuratenie, date);
                 FWriter.getInstance().curatenieEntry(curatenie,outCuratenie);
+
+                AuditService.getInstance().writeMessage("S-a facut curatenie ", date);
             }
 
             else break;

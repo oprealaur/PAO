@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b61fb7f-72e4-4b0a-ae65-2cfed293a016" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuditFile.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IstoricCuratenie.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IstoricGunoi.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OutLocatari.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/administratie/services/FWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Apartament.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Apartament.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Locatari.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Locatari.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Persoana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/Persoana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/AuditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/AuditService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/Curatenie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/Curatenie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/Gunoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/Gunoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/Intretinere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proiectpao/com/administratie/services/Intretinere.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/Apartament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/Apartament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/Locatari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/Locatari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/administratie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/Persoana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/services/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/services/AuditService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/services/Curatenie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/services/Curatenie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/services/Gunoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/services/Gunoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/administratie/services/Intretinere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/administratie/services/Intretinere.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/administratie/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="756">
+              <caret line="78" column="76" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,28 +31,28 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IstoricCuratenie.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret selection-end-line="3" selection-end-column="35" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IstoricGunoi.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/administratie/services/AuditService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="272">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,16 +63,16 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AuditFile.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/administratie/services/FWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="765">
               <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,20 +83,20 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DateLocatari.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="102">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/administratie/services/Intretinere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="833">
               <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,14 +114,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/administratie/services/Curatenie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="510">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
               <folding>
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,12 +154,12 @@
         <option value="$PROJECT_DIR$/src/AuditFile.csv" />
         <option value="$PROJECT_DIR$/src/com/administratie/services/Gunoi.java" />
         <option value="$PROJECT_DIR$/src/com/administratie/services/FWriter.java" />
-        <option value="$PROJECT_DIR$/src/com/administratie/Main.java" />
         <option value="$PROJECT_DIR$/src/com/administratie/services/Curatenie.java" />
+        <option value="$PROJECT_DIR$/src/com/administratie/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -192,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +199,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,18 +256,18 @@
       <workItem from="1557419802775" duration="1881000" />
       <workItem from="1557476032243" duration="966000" />
       <workItem from="1557769965546" duration="6192000" />
-      <workItem from="1557850221300" duration="3641000" />
+      <workItem from="1557850221300" duration="3799000" />
+      <workItem from="1557933222618" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28980000" />
+    <option name="totallyTimeSpent" value="29796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098614074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09968017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,7 +276,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32286024" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,10 +322,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/administratie/OutLocatari.csv" />
     <entry file="file://$PROJECT_DIR$/src/OutLocatari.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/administratie/Apartament.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -374,10 +352,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AuditFile.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/IstoricCuratenie.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IstoricGunoi.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/administratie/services/AuditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AuditFile.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/administratie/services/FWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DateLocatari.csv">
@@ -386,64 +400,18 @@
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/administratie/services/FWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/administratie/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IstoricCuratenie.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IstoricGunoi.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/administratie/services/AuditService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/administratie/services/Intretinere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="833">
           <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -460,11 +428,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/administratie/services/Curatenie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="510">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/administratie/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="78" column="76" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
