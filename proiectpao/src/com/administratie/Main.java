@@ -84,6 +84,8 @@ public class Main {
                 float numarmarire = myInput.nextFloat();
                 MaresteSalariu.getInstance().marestesalariu(numarmarire);
                 System.out.println("Salariul marit este: " + MaresteSalariu.getInstance().getSalariu());
+
+                AuditService.getInstance().writeMessage("S-a modificat salariul administraorului ", date);
             }
 
             else break;
