@@ -3,7 +3,7 @@ package com.administratie;
 import com.administratie.Persoana;
 
 public class Administrator extends Persoana{
-    private float salariu;
+    private float salariu = 4000;
 
     public Administrator(int numarapt, String nume, String telefon) {
         super(numarapt, nume, telefon);
@@ -16,4 +16,6 @@ public class Administrator extends Persoana{
     public float getSalariu() {
         return salariu;
     }
+
+    public Administrator(){};
 }

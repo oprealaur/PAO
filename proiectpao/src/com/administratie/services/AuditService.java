@@ -5,7 +5,7 @@ import  java.util.Date;
 
 public class AuditService {
 
-    private String path = "C:\\Users\\laur_\\Desktop\\Tema2Retele\\PAO\\proiectpao\\src\\AuditFile.csv";
+    private String path = "C:\\Users\\Laur\\Desktop\\Facultate\\Git\\PAO\\proiectpao\\src\\AuditFile.csv";
     private static  PrintWriter printWriter;
 
     private static AuditService ourInstance = new AuditService();

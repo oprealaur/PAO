@@ -9,10 +9,10 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        String dateLocatari = "C:\\Users\\laur_\\Desktop\\Tema2Retele\\PAO\\proiectpao\\src\\DateLocatari.csv";
-        String outLocatari = "C:\\Users\\laur_\\Desktop\\Tema2Retele\\PAO\\proiectpao\\src\\OutLocatari.csv";
-        String outGunoi = "C:\\Users\\laur_\\Desktop\\Tema2Retele\\PAO\\proiectpao\\src\\IstoricGunoi.csv";
-        String outCuratenie = "C:\\Users\\laur_\\Desktop\\Tema2Retele\\PAO\\proiectpao\\src\\IstoricCuratenie.csv";
+        String dateLocatari = "C:\\Users\\Laur\\Desktop\\Facultate\\Git\\PAO\\proiectpao\\src\\DateLocatari.csv";
+        String outLocatari = "C:\\Users\\Laur\\Desktop\\Facultate\\Git\\PAO\\proiectpao\\src\\OutLocatari.csv";
+        String outGunoi = "C:\\Users\\Laur\\Desktop\\Facultate\\Git\\PAO\\proiectpao\\src\\IstoricGunoi.csv";
+        String outCuratenie = "C:\\Users\\Laur\\Desktop\\Facultate\\Git\\PAO\\proiectpao\\src\\IstoricCuratenie.csv";
 
         Date date = new Date();
 
@@ -24,7 +24,7 @@ public class Main {
         Scanner myInput = new Scanner(System.in);
 
         while (true){
-            System.out.println("\nCereri:\n1.Afisare locatari \n2.Adauga locatar \n3.Intrare gunoi \n4.Intrare curatenie \n5.Iesire");
+            System.out.println("\nCereri:\n1.Afisare locatari \n2.Adauga locatar \n3.Intrare gunoi \n4.Intrare curatenie \n5.Mareste salariu administrator \n6.Iesire");
 
             Locatari locatar = null;
 
@@ -77,6 +77,13 @@ public class Main {
                 FWriter.getInstance().curatenieEntry(curatenie,outCuratenie);
 
                 AuditService.getInstance().writeMessage("S-a facut curatenie ", date);
+            }
+
+            else if (cerere == 5){
+                System.out.println("Cu cat se mareste salariul?");
+                float numarmarire = myInput.nextFloat();
+                MaresteSalariu.getInstance().marestesalariu(numarmarire);
+                System.out.println("Salariul marit este: " + MaresteSalariu.getInstance().getSalariu());
             }
 
             else break;

@@ -1,5 +1,6 @@
 package com.administratie.services;
 
+import com.administratie.ConsumTotal;
 import com.administratie.Locatari;
 import com.administratie.Persoana;
 
@@ -8,12 +9,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.LineNumberReader;
 import java.util.ArrayList;
-import java.util.TreeSet;
+import java.util.Collections;
 
 public class Intretinere extends Locatari {
     private static final Intretinere ourInstance = new Intretinere();
 //    private static Locatari[] listaLocatari = new Locatari[10];
-    private static final ArrayList<Locatari> listaLocatari = new ArrayList<Locatari>();
+    public static final ArrayList<Locatari> listaLocatari = new ArrayList<Locatari>();
     private Object Locatari;
 
     public Intretinere(){
@@ -40,7 +41,7 @@ public class Intretinere extends Locatari {
                 if(line == null)
                     break;
                 cuvinte = line.split(",");
-                creazaLocatar(cuvinte);
+                creeazaLocatar(cuvinte);
             }
             lineNumberReader.close();
         } catch (FileNotFoundException e) {
@@ -50,7 +51,7 @@ public class Intretinere extends Locatari {
     }
 
 
-    private void creazaLocatar(String[] cuvinte){
+    private void creeazaLocatar(String[] cuvinte){
         adaugaLocatar(Integer.parseInt(cuvinte[0]), cuvinte[1], cuvinte[2],Integer.parseInt(cuvinte[3]), Integer.parseInt(cuvinte[4]), Integer.parseInt(cuvinte[5]));
 
     }
@@ -58,6 +59,10 @@ public class Intretinere extends Locatari {
     public static Locatari adaugaLocatar(int numarapt, String nume, String telefon, int consum1, int consum2, int total){
         Locatari locatar = new Locatari(numarapt,nume,telefon,consum1,consum2,total);
         listaLocatari.add(locatar);
+        ConsumTotal consumTotal = new ConsumTotal();
+        consumTotal.adaugaConsumCalda(consum1);
+        consumTotal.adaugaConsumRece(consum2);
+        consumTotal.adaugaSuma(total);
         return locatar;
     }
     
@@ -86,4 +91,7 @@ public class Intretinere extends Locatari {
         System.out.println("\n");
     }
 
+    public void sorteazLocatari(){
+        Collections.sort(this.listaLocatari);
+    }
 }

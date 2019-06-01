@@ -1,6 +1,6 @@
 package com.administratie;
 
-public class Locatari extends Persoana{
+public class Locatari extends Persoana implements Comparable{
     private int numarapt;
     private float suma;
     private float consum_apa_calda;
@@ -81,5 +81,17 @@ public class Locatari extends Persoana{
 
     public void printLocatar(){
         System.out.println(getNumarapt() + " " + getNume() + " " + getTelefon() + " " + getConsum_apa_calda() +" " + getConsum_apa_rece() +" " + getSuma());
+    }
+
+    public int compareTo(Locatari locatari){
+        int comparanumar=((Locatari)locatari).getNumarapt();
+        return this.numarapt-comparanumar;
+
+    }
+
+    @Override
+    public int compareTo(Object o) {
+//        return this.numarapt - o.getNumarapt; //De ce nu merge sa declar Locatari in lod de object??
+        return 0;
     }
 }
